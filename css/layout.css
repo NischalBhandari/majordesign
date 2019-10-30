@@ -9,6 +9,13 @@
 .header-wrapper{
 
 }
+.our-team{
+  overflow:hidden;
+}
+.team-wrapper{
+  float:left;
+  padding-left:15px;
+}
 .header-top:before,.header-top:after{
 	content:"";
 	clear:both;

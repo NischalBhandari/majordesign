@@ -198,7 +198,10 @@
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
 }
 .our-team-body{
+  position:relative;
+  overflow:hidden;
   margin-top:30px;
+  width:400%;
 }
 
 .our-team-heading{
@@ -242,8 +245,21 @@
   right:0%;
 }
 .slider-nav{
+  position:relative;
   margin-top:30px;
+  display:block;
+  margin:auto;
 
+}
+.slider-wrap{
+  position:absolute;
+align-items: center;
+left:50%;
+}
+.slider-button{
+  width:10px;
+  height:10px;
+  border-radius:50%;
 }
 .slider-nav img{
  display:block;
@@ -335,6 +351,7 @@
   padding-left:20px;
 
 }
+
 .Mail {
 
   line-height: 5.917;
@@ -493,6 +510,23 @@
   position: absolute;
   right:16px;
 }
+.team-wrapper{
+  width:33.33%;
+}
+.colPic-2-left{
+  width:51%;
+}
+.colPic-2-right{
+  width:51%;
+  float:left;
+}
+.col-4-left{
+  width:100%;
+}
+.col-4-right{
+  width:100%;
+}
+
 }
 
 @media only screen and (max-width: 998px) {
