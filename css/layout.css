@@ -151,8 +151,7 @@
 }
 .header-burger{
   display:none;
+  z-index:30;
 }
-/*.footer-menu{
- margin-right:-50px;
-}*/
+
 

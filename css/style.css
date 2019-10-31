@@ -498,7 +498,7 @@ left:50%;
 }
 .header-bottom{
   display:none;
-  margin-top:-220px;
+  margin-top:-100px;
 }
 .header-menu ul li{
   float:none;
@@ -531,6 +531,7 @@ left:50%;
   width:51%;
   float:left;
 }
+
 }
 
 
@@ -624,7 +625,7 @@ left:50%;
 }
 .header-bottom{
   display:none;
-  margin-top:-220px;
+  margin-top:-120px;
 }
 .header-menu ul li{
   float:none;
@@ -656,6 +657,7 @@ left:50%;
 .col-4-right{
   width:100%;
 }
+
 
 }
 
