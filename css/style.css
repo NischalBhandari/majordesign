@@ -99,6 +99,9 @@
     background-repeat: no-repeat;
     background-position: 50% 20%;
 }
+.map img{
+  width:100%;
+}
 .tour{
     background-image:url('../images/tour.png');
     background-repeat: no-repeat;
@@ -257,9 +260,11 @@ align-items: center;
 left:50%;
 }
 .slider-button{
+  margin-top:30px;
   width:10px;
   height:10px;
   border-radius:50%;
+  margin-bottom:30px;
 }
 .slider-nav img{
  display:block;
@@ -306,10 +311,12 @@ left:50%;
   margin-top:16px;
 }
 .description-gap{
+  margin-top:100px;
   margin-bottom: 20px;
 }
 .footer-wrapper{
   background-color:#2d2d2d;
+ border-top:4px solid purple;
 }
 .footer-menu ul li{
   float:left;
@@ -401,6 +408,129 @@ left:50%;
   color: rgb(126, 126, 126);
   line-height: 1.909;
   text-align: left;
+}
+@media only screen and (max-width: 998px) {
+.container{
+  min-width:100%;
+  width:100%;
+  background-image:none;
+}
+.grey-background{
+  min-width:100%;
+  width:100%;
+}
+.header-top{
+  min-width:100%;
+  width:100%;
+}
+.header-bottom{
+  min-width: 100%;
+  width:100%;
+}
+.team-container{
+  min-width:100%;
+  width:100%;
+}
+.header-top-logo{
+  width:100%;
+}
+.header-top-links{
+  width:100%;
+}
+.header-top-links ul li {
+  width:50%;
+}
+.header-search-bar{
+  width:100%;
+}
+.header-search-bar input{
+  width:100%;
+}
+.screen-container{
+  min-width:100%;
+  width:100%;
+  background-size:cover;
+}
+.screen-inside-background{
+  width:100%;
+  background-size:cover;
+}
+.map img{
+  width:100%;
+}
+.footer-right{
+  padding-left:16px;
+  padding-right:16px;
+  width:100%;
+}
+.footer-left{
+  padding-left:16px;
+  padding-right:16px;
+  width:100%;
+}
+.footer-links{
+  padding-left:16px;
+  padding-right:16px;
+}
+.description-2-left{
+  width:100%;
+}
+.description-2-right{
+  margin-top:20px;
+  width:100%;
+}
+.col-3-right{
+  padding-left:16px;
+  padding-right:16px;
+  width:100%;
+}
+.col-2-left{
+
+  width:100%;
+}
+.col-2-right{
+  width:100%;
+}
+.col-3-left{
+    padding-left:16px;
+  padding-right:16px;
+  width:100%;
+}
+.header-bottom{
+  display:none;
+  margin-top:-220px;
+}
+.header-menu ul li{
+  float:none;
+  width:100%;
+  z-index: 40;
+  background-color:white;
+}
+.header-menu ul li a:hover{
+  margin-top:0px;
+}
+.header-burger{
+  display:block;
+  position: absolute;
+  right:16px;
+}
+.team-wrapper{
+  width:33.33%;
+}
+.colPic-2-left{
+  width:50%;
+}
+.colPic-2-right{
+  width:50%;
+  float:left;
+}
+.col-4-left{
+  width:51%;
+}
+.col-4-right{
+  width:51%;
+  float:left;
+}
 }
 
 
@@ -529,109 +659,3 @@ left:50%;
 
 }
 
-@media only screen and (max-width: 998px) {
-.container{
-  min-width:100%;
-  width:100%;
-  background-image:none;
-}
-.grey-background{
-  min-width:100%;
-  width:100%;
-}
-.header-top{
-  min-width:100%;
-  width:100%;
-}
-.header-bottom{
-  min-width: 100%;
-  width:100%;
-}
-.team-container{
-  min-width:100%;
-  width:100%;
-}
-.header-top-logo{
-  width:100%;
-}
-.header-top-links{
-  width:100%;
-}
-.header-top-links ul li {
-  width:50%;
-}
-.header-search-bar{
-  width:100%;
-}
-.header-search-bar input{
-  width:100%;
-}
-.screen-container{
-  min-width:100%;
-  width:100%;
-  background-size:cover;
-}
-.screen-inside-background{
-  width:100%;
-  background-size:cover;
-}
-.map img{
-  width:100%;
-}
-.footer-right{
-  padding-left:16px;
-  padding-right:16px;
-  width:100%;
-}
-.footer-left{
-  padding-left:16px;
-  padding-right:16px;
-  width:100%;
-}
-.footer-links{
-  padding-left:16px;
-  padding-right:16px;
-}
-.description-2-left{
-  width:100%;
-}
-.description-2-right{
-  margin-top:20px;
-  width:100%;
-}
-.col-3-right{
-  padding-left:16px;
-  padding-right:16px;
-  width:100%;
-}
-.col-2-left{
-
-  width:100%;
-}
-.col-2-right{
-  width:100%;
-}
-.col-3-left{
-    padding-left:16px;
-  padding-right:16px;
-  width:100%;
-}
-.header-bottom{
-  display:none;
-  margin-top:-220px;
-}
-.header-menu ul li{
-  float:none;
-  width:100%;
-  z-index: 40;
-  background-color:white;
-}
-.header-menu ul li a:hover{
-  margin-top:0px;
-}
-.header-burger{
-  display:block;
-  position: absolute;
-  right:16px;
-}
-}
