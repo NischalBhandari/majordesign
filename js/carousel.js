@@ -24,6 +24,9 @@ menuShow.addEventListener('click',function(){
 		show=!show;
 	}
 })
+window.onresize=function(){
+location.reload();
+}
 window.addEventListener("load",myCarousel);
 function myCarousel(){
 bodyWidth.style.width=objects.length*objects[0].clientWidth+'px';

@@ -245,7 +245,7 @@
 .twitter-link{
   position:absolute;
   bottom:0%;
-  right:0%;
+  right:6%;
 }
 .slider-nav{
   position:relative;
@@ -345,7 +345,7 @@ left:50%;
 
 .social-menu ul li {
   float: left;
-  width:25%;
+  width:20%;
   list-style:none;
 }
 .social-menu ul li a{
@@ -402,12 +402,16 @@ left:50%;
   line-height: 3.417;
   text-align: left;
 }
+
 .footer-info span{
   font-size: 11px;
   font-family: "Helvetica";
   color: rgb(126, 126, 126);
   line-height: 1.909;
   text-align: left;
+}
+.footer-info{
+  padding-bottom:40px;
 }
 @media only screen and (max-width: 998px) {
 .container{
@@ -482,11 +486,13 @@ left:50%;
 .col-3-right{
   padding-left:16px;
   padding-right:16px;
+  padding-bottom:20px;
   width:100%;
 }
 .col-2-left{
 
   width:100%;
+  padding-bottom:20px;
 }
 .col-2-right{
   width:100%;
@@ -494,6 +500,7 @@ left:50%;
 .col-3-left{
     padding-left:16px;
   padding-right:16px;
+  padding-bottom:20px;
   width:100%;
 }
 .header-bottom{
@@ -530,8 +537,16 @@ left:50%;
 .col-4-right{
   width:51%;
   float:left;
+  margin-right:36px;
 }
-
+.footer-info{
+  padding-left:16px;
+  padding-right:16px;
+}
+.social-menu{
+  margin-top:10px;
+  margin-bottom:10px;
+}
 }
 
 
@@ -596,8 +611,12 @@ left:50%;
   width:100%;
 }
 .footer-links{
+  padding-top:40px;
   padding-left:16px;
   padding-right:16px;
+}
+.footer-links ul li a {
+  font-size:10px;
 }
 .description-2-left{
   width:100%;
@@ -645,10 +664,10 @@ left:50%;
   width:33.33%;
 }
 .colPic-2-left{
-  width:51%;
+  width:70%;
 }
 .colPic-2-right{
-  width:51%;
+  width:70%;
   float:left;
 }
 .col-4-left{
@@ -656,6 +675,20 @@ left:50%;
 }
 .col-4-right{
   width:100%;
+}
+.screen-container{
+  width:100%;
+}
+.screen-container img{
+  width:100%;
+}
+.footer-info{
+  padding-left:16px;
+  padding-right:16px;
+}
+.social-menu{
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
 
